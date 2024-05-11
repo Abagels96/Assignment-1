@@ -1,0 +1,43 @@
+
+ 
+
+
+body{background-color: blue;
+color:white;}
+
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+   margin-bottom: 100px;
+   
+   /* **/flex-grow:1;**/ 
+}
+#buttons1 {display:flex;
+align-items: stretch;
+margin-left:1500px;
+flex-grow: ;
+}
+
+
+.free{background-color:orange;
+border-radius: 12px;
+border:orange;
+text-align:center;
+color:white;
+font-size:16px;
+opacity: 1;
+padding:15px 32px;
+display:inline-block;
+text-decoration: none;}
+
+h3{margin-top: 0px;
+font-size:35px;}
+p{margin-bottom:0px;
+font-size: ;}
+
+.first-topic{display:flex;
+flex-direction:row;
+text-wrap:wrap;
+font-size:medium;}
+
+.image-and-tag{}
