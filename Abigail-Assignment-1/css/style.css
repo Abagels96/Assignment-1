@@ -2,7 +2,7 @@
 
 
 
-body{background-color: rgb(69, 41, 224);
+body{background-color: rgb(76, 48, 229);
 color:white;}
 
 .nav-bar{
@@ -13,8 +13,9 @@ color:white;}
    /* **/flex-grow:1;**/ 
 }
 
+a{color:white;}
 button{ border:none;
-background-color:blue;
+background-color:rgb(76,48,229);
 color:white; 
 }
 
@@ -22,54 +23,58 @@ color:white;
 align-items: stretch;
 margin-left:1500px;
 flex-grow:1 ;
-border:none;
-background-color:blue;
-color:white;
+
+
+
 }
 
-p{font-size:40px;
-}
+
 
 .free{background-color:orange;
-border-radius: 20px;
+border-radius: 30px;
 border:orange;
 text-align:center;
 color:white;
 font-size:20px;
 text-wrap:wrap;
 opacity: 1;
-padding:15px 20px;
-display:inline-block;
+padding: 15px 40px;
+display:flex;
 text-decoration: none;}
 
 h3{margin-top: 0px;
 font-size:35px;}
 p{margin-bottom:0px;
-font-size: 10px;}
+font-size: 30px;}
 
 
 .first-topic{
-   display:inline-block;
-   margin:10px;
-font-size:40px;
+   display:flex;
+   justify-content:flex-start;
+   
+   flex-direction: row;
+margin:10px 0 0 10px;
 
-text-align:left;
-
-padding-bottom:100px;
+padding:0px;
 
 }
 
-.picture-1{padding: 0px;
-display:inline-block;
-border:none;}
+.clout{display:flex;
+flex-direction:column;
+color:rgb(142, 54, 197);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
 .row{display:flex;}
 
-.column{flex:50%;
-padding:5px;}
+ .column{flex:50%;
+padding:10px; 
+}
 
-#middle{font-size:20px;
-padding:10px;}
+#middle{font-size:35px;
+padding:80px;
+text-align:center;
+}
 
-
-p{font-size:35px;}
+/* .column[p]{
+   font-size:30px;
+} */
